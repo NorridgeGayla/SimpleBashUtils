@@ -1,5 +1,5 @@
-#ifndef SRC_GREP_GREP_H
-#define SRC_GREP_GREP_H
+#ifndef SIMPLEBASHUTILS_SRC_GREP_HEADERS_GREP_H_
+#define SIMPLEBASHUTILS_SRC_GREP_HEADERS_GREP_H_
 
 typedef struct GrepFlagsStruct {
   int flag_e;
@@ -14,6 +14,6 @@ typedef struct GrepFlagsStruct {
   int flag_o;
 } GrepFlagsStruct;
 
-void S21Grep(int argc, char** argv);
+void my_grep(int argc, char** argv);
 
-#endif  // SRC_GREP_GREP_H
+#endif  // SIMPLEBASHUTILS_SRC_GREP_HEADERS_GREP_H_

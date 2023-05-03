@@ -16,6 +16,8 @@ fi
 TEST_FILE="./test/bytes.txt"
 FLAGS="-b -e -n -s -t -v -E -T --number-nonblank --number --squeeze-blank -r"
 
+rm -f ./test/log.txt
+
 exec 1>./test/log.txt
 exec 2> /dev/null
 

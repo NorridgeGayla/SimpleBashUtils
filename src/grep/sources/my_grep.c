@@ -1,15 +1,15 @@
-#include "s21_grep.h"
+#include "../headers/my_grep.h"
 
-#include "../common/error.h"
-#include "parser.h"
-#include "reader.h"
+#include "../../common/error.h"
+#include "../headers/parser.h"
+#include "../headers/reader.h"
 
 int main(int argc, char** argv) {
-  S21Grep(argc, argv);
+  my_grep(argc, argv);
   return 0;
 }
 
-void S21Grep(int argc, char** argv) {
+void my_grep(int argc, char** argv) {
   if (argc > 2) {
     GrepFlagsStruct flags = {0};
     char* patterns = NULL;

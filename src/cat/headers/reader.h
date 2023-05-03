@@ -1,5 +1,5 @@
-#ifndef SIMPLEBASHUTILS_SRC_CAT_READER_H_
-#define SIMPLEBASHUTILS_SRC_CAT_READER_H_
+#ifndef SIMPLEBASHUTILS_SRC_CAT_HEADERS_READER_H_
+#define SIMPLEBASHUTILS_SRC_CAT_HEADERS_READER_H_
 
 #include "../../common/error.h"
 #include "my_cat.h"
@@ -15,4 +15,4 @@ void Flag_s_func(FILE *pFile);
 void Flag_T_func(FILE *pFile);
 void Flags_etv_func(FILE *pFile, char invisible_char);
 
-#endif  // SIMPLEBASHUTILS_SRC_CAT_READER_H_
+#endif  // SIMPLEBASHUTILS_SRC_CAT_HEADERS_READER_H_

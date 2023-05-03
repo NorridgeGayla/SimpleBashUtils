@@ -1,4 +1,4 @@
-#include "parser.h"
+#include "../headers/parser.h"
 
 int ParserFlags(int argc, char** argv, GrepFlagsStruct* flags, char** patterns,
                 int* count_patterns) {

@@ -1,12 +1,12 @@
-#ifndef SRC_GREP_PARSER_H
-#define SRC_GREP_PARSER_H
+#ifndef SIMPLEBASHUTILS_SRC_GREP_HEADERS_PARSER_H_
+#define SIMPLEBASHUTILS_SRC_GREP_HEADERS_PARSER_H_
 
 #include <getopt.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include "../common/error.h"
-#include "s21_grep.h"
+#include "../../common/error.h"
+#include "my_grep.h"
 
 #define BUFFER_SIZE 4096
 #define CHECK_FLAGS "e:vilcnhsf:o"
@@ -18,4 +18,4 @@ char* ToGetPatterns(int count, char* patterns, char* string);
 char* ReadStringFromFile(int* count_patterns, char* patterns,
                          GrepFlagsStruct* flags);
 
-#endif  // SRC_GREP_PARSER_H
+#endif  // SIMPLEBASHUTILS_SRC_GREP_HEADERS_PARSER_H_

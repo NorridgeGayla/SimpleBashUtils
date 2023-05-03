@@ -1,5 +1,5 @@
-#ifndef SIMPLEBASHUTILS_SRC_CAT_MY_CAT_H_
-#define SIMPLEBASHUTILS_SRC_CAT_MY_CAT_H_
+#ifndef SIMPLEBASHUTILS_SRC_CAT_HEADERS_MY_CAT_H_
+#define SIMPLEBASHUTILS_SRC_CAT_HEADERS_MY_CAT_H_
 
 typedef struct CatFlagsStruct {
   int flag_b;
@@ -14,4 +14,4 @@ typedef struct CatFlagsStruct {
 
 void my_cat(int argc, char** argv);
 
-#endif  // SIMPLEBASHUTILS_SRC_CAT_MY_CAT_H_
+#endif  // SIMPLEBASHUTILS_SRC_CAT_HEADERS_MY_CAT_H_

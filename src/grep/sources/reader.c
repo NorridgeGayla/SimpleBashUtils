@@ -1,4 +1,4 @@
-#include "reader.h"
+#include "../headers/reader.h"
 
 char* OpenFile(int argc, char** argv, GrepFlagsStruct* flags, char* patterns,
                int* count_patterns) {

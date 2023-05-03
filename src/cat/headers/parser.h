@@ -1,5 +1,5 @@
-#ifndef SIMPLEBASHUTILS_SRC_CAT_PARSER_H_
-#define SIMPLEBASHUTILS_SRC_CAT_PARSER_H_
+#ifndef SIMPLEBASHUTILS_SRC_CAT_HEADERS_PARSER_H_
+#define SSIMPLEBASHUTILS_SRC_CAT_HEADERS_PARSER_H_
 
 #include <getopt.h>
 #include <string.h>
@@ -12,4 +12,4 @@
 int ParserFlags(int argc, char **argv, CatFlagsStruct *flags);
 char **ParserFiles(int argc, char **argv, int *amount_files);
 
-#endif  // SIMPLEBASHUTILS_SRC_CAT_PARSER_H_
+#endif  // SIMPLEBASHUTILS_SRC_CAT_HEADERS_PARSER_H_
